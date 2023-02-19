@@ -1,0 +1,610 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .navs,
+header .actions,
+header img {
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+header div h5 {
+    margin-inline-end: 30px;
+    font-weight: 100;
+}
+
+header .actions button {
+    color: #ff8155;
+    background: #ffe4da;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 17% 17%;
+}
+
+.banner .bannerContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-block: 1em; */
+}
+
+.banner .bannerContents .texts {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    /* width: 40vh; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex: 1;
+
+}
+
+.banner .bannerContents .texts input {
+    border: 1px solid black;
+    border-right: none;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.banner .bannerContents .texts .bannerHeading {
+    font-size: 3em;
+    font-weight: 900;
+    /* font-family: ; */
+}
+
+.banner .bannerContents .texts button {
+    padding: 16px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+.banner .bannerContents .bannerImages {
+    position: relative;
+    width: 50%;
+}
+
+.banner .bannerContents .bannerImages .hero {
+    width: 100%;
+}
+
+.banner .bannerContents .bannerImages .play {
+    position: absolute;
+    left: 50%;
+    background: #ff794b;
+    padding: 20px;
+    border-radius: 100%;
+    top: -10%;
+}
+
+.banner .bannerContents .bannerImages .curve {
+    position: absolute;
+    left: 35%;
+    top: -3%;
+}
+
+.banner p {
+    text-align: center;
+    margin-block: 20px;
+}
+
+.banner .brandsLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 10px;
+}
+
+
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5em;
+}
+
+.tips>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5em;
+    width: 100%;
+}
+
+.tips>div:nth-child(2n) {
+    background: #f8f8f8;
+}
+
+.tips>div .img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.tips>div .img img {
+    width: 65%;
+}
+
+.tips>div .contents {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 500px;
+}
+
+.tips>div .contents .icon {
+    display: flex;
+    align-items: center;
+    /* background: orangered; */
+    padding: 12px;
+    border-radius: 1.3rem;
+}
+
+.tips>div .contents h2 {
+    font-size: 2em;
+}
+
+.tips>div .contents h4 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.tips>div .contents button {
+    padding: 10px 15px;
+    border-radius: .5rem;
+}
+
+.tips>div .contents h6 {
+    font-weight: normal;
+    color: #999;
+}
+
+.tips>div .contents h6 span {
+    color: #333;
+}
+
+
+
+
+.brandsVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 17%
+}
+
+.brandsVideo h1 {
+    font-size: 2em;
+    margin-block: 1em;
+}
+
+.brandsVideo .videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandsVideo .videos .reviewImg {
+    /* width: 20%; */
+    position: relative;
+    margin-right: 15px;
+    max-height: 400px;
+
+}
+
+.brandsVideo .videos .reviewImg .mainImg {
+    width: 100%;
+    border-radius: .5em;
+}
+
+.brandsVideo .videos .reviewImg .play {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.brandsVideo .videos .reviewImg .brandLogo {
+    position: absolute;
+    left: 10px;
+    top: 212px;
+    background: #fff;
+    padding: 5px;
+    border-radius: .4em;
+    width: 75px;
+    height: 30px;
+}
+
+.brandsVideo .videos .reviewImg h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-block: 1em;
+}
+
+
+
+
+
+.brandAmbassadors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7% 17%;
+    gap: 4em;
+}
+
+.brandAmbassadors div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-height: 1000px;
+}
+
+.brandAmbassadors div .logo {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    padding: 10px;
+    border-radius: .5em;
+}
+
+.brandAmbassadors div .man {
+    width: 100%;
+    /* padding: 2em; */
+}
+
+.brandAmbassadors div h3 {
+    font-size: 1em;
+}
+
+.brandAmbassadors div h4 {
+    font-size: .5em;
+    line-height: 1.5em;
+}
+
+.brandAmbassadors div span {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+.createFreedom {
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createFreedom>h1 {
+    margin-block: 3em;
+}
+
+.createFreedom .images {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10em; */
+    /* flex-grow: ; */
+    justify-content: center;
+    align-items: center;
+    margin-inline: 1%;
+}
+
+.createFreedom .images .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    padding: 4em 5em;
+    line-height: 1.2em;
+}
+
+.createFreedom .images .contents:not(:nth-child(3n)) {
+    border-inline-end: .1px #999999 dashed;
+}
+
+.createFreedom .images .contents h5 {
+    font-weight: normal;
+}
+
+
+.createFreedom .getDemo {
+    background: rgb(213, 227, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    gap: 3em;
+    position: relative;
+    border-radius: .5em;
+    margin-block: 5em;
+}
+
+.createFreedom .getDemo img {
+    position: absolute;
+    top: -25%;
+    background: #fff;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.createFreedom .getDemo button {
+    padding: 1em;
+    border-radius: .5em;
+}
+
+
+
+
+
+
+.videoSolutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-block: 3em 10em;
+    gap: 3em;
+}
+
+.videoSolutions .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.videoSolutions .images .contents {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2em;
+    text-align: center;
+    width: 300px;
+    border-radius: .3em;
+    height: 500px;
+}
+
+.videoSolutions .images .contents h6 {
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.videoSolutions .images .contents button {
+    padding: .7em 1.5em;
+    border-radius: .5em;
+}
+
+.videoSolutions .images .contents img:first-child {
+    background: #fff;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+.videoSolutions .images .contents img:last-child {
+    width: 120%;
+}
+
+
+
+
+
+.videoResources{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2em 17% ;
+}
+.videoResources > h1{
+    font-size: 2em;
+    font-weight: 900;
+}
+.videoResources .images{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3em;
+}
+.videoResources .images .contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+    max-height: 700px;
+    /* width: 100%; */
+}
+
+.videoResources .images .contents img{
+    width: 100%;
+    border-radius: .3em;
+}
+.videoResources .images .contents h3{
+    font-size:.9rem;
+}
+.videoResources .images .contents a{
+    text-decoration: solid;
+    font-size: .8em;
+}
+.videoResources .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 30%; */
+    
+}
+.videoResources .button button{
+    padding: 1em 2em;
+    border-radius: .5em;
+}
+
+
+
+
+
+.contact {
+    background: #000;
+    color: #fff;
+    display: flex;
+    padding: 3em 17%;
+}
+
+.contact .left{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    
+}
+.contact .left h1{
+    font-size: 2em;
+}
+.contact .left p{
+    color: #999;
+    font-size: .7rem;
+}
+.contact .left .hr{
+    border-top: #999 dashed 1px;
+    width: 9rem;
+}
+.contact .left .details h6{
+    font-size: .5em;
+    color: #666;
+    font-weight: normal;
+}
+
+.contact .left .profiles img:first-child{
+    border: 2px solid rgb(223, 145, 0);
+}
+.contact .left .profiles img{
+    padding: 3px;
+    border-radius: 100%;
+}
+
+.contact .left .brandsLogo{
+    display: flex;
+    gap: 1em;
+    margin-block: 2em;
+}
+
+
+/* .contact .right  {
+} */
+.contact .right .container {
+    display: flex;
+    background: #fff;
+    color: #000;
+    padding: 3em;
+    border-radius: .3em;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 7em;
+    /* margin: em; */
+}
+.contact .right .container form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.contact .right .container form input:not([type="checkbox"]),select{
+    height: 3em;
+    width: 45%;
+    border: #ddd 1px solid;
+    color: #999;
+}
+.contact .right .container form p{
+    /* display: inline; */
+    width: 90%;
+    color: #666;
+    font-size: .6em;
+}
+.contact .right .container form button{
+    /* align-self: center; */
+    width: 100%;
+    height: 3em;
+    border-radius: .5em;
+    /* justify-self: center; */
+}
+
+
+
+
+footer{
+    display: flex;
+    padding: 5em 17%;
+    gap: 5em;
+}
+footer > div{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+footer > div b,footer > div p{
+    font-size: .8em;
+}
+footer .about{
+    display: flex ;
+    gap: 2em;
+    flex-direction: column;
+}
+footer .about h3{
+    font-weight: normal;
+    font-size: 1em;
+}
+footer .about .socialIcons{
+    display: flex;
+    gap: 1em;
+}
+footer .about .socialIcons img{
+    color: #000;
+    padding: .5em;
+    background: #ddd;
+    border-radius: .5em;
+}
+footer .about .language div{
+    display: flex;
+    gap: 10px;
+    margin-block: 1em;
+}
+footer .solutions{
+    display: flex;
+    width: 20%;
+    gap: .7em;
+    flex-direction: column;
+}
+footer .solutions div{
+    display: flex;
+    align-items: center;
+}
